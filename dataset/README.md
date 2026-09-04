@@ -14,7 +14,7 @@ The dataset is divided into three parts:
 
 ### Dataset Files
 
-```text
+
 dataset/
 ├── crisismmd_datasplit_all.zip
 ├── task_humanitarian_text_img_train.tsv
