@@ -139,24 +139,4 @@ Example:
 | Authorities shared information about the ongoing wildfire. | Not Humanitarian |
 | I watched a video about the storm on social media. | Other Relevant Information |
 
-## 9. Project Structure
 
-```text
-CrisisText-NLP/
-│
-├── README.md
-├── source_code.py
-├── requirements.txt
-│
-├── dataset/
-│   └── README.md
-│
-├── screenshots/
-│   ├── class_distribution.png
-│   ├── preprocessing_example.png
-│   ├── model_comparison.png
-│   ├── confusion_matrix.png
-│   └── sample_predictions.png
-│
-└── report/
-    └── CrisisText_Report.pdf
