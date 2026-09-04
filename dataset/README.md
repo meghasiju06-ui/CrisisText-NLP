@@ -20,7 +20,7 @@ dataset/
 ├── task_humanitarian_text_img_train.tsv
 ├── task_humanitarian_text_img_dev.tsv
 └── task_humanitarian_text_img_test.tsv
-text```
+
 ### Dataset Fields
 
 The dataset contains information such as:
