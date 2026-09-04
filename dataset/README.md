@@ -2,7 +2,7 @@
 
 This project uses the **CrisisMMD (Crisis Multimodal Twitter Dataset)** for humanitarian information classification.
 
-The dataset is included in this repository under the `dataset/` folder.
+The dataset is included in this repository under the `dataset/` folder. Both the original ZIP archive and the extracted TSV files are provided.
 
 ### Dataset Splits
 
@@ -16,10 +16,12 @@ The dataset is divided into three parts:
 
 ```text
 dataset/
+├── crisismmd_datasplit_all.zip
 ├── task_humanitarian_text_img_train.tsv
 ├── task_humanitarian_text_img_dev.tsv
 └── task_humanitarian_text_img_test.tsv
-Dataset Fields
+
+### Dataset Fields
 
 The dataset contains information such as:
 
@@ -33,4 +35,8 @@ label_text – Text-based label
 label_image – Image-based label
 label_text_image – Combined text-image label
 
-For this project, the tweet text and humanitarian category labels are primarily used for NLP classification.
+For this project, the tweet text (tweet_text) and humanitarian category labels (label_text) are primarily used for NLP classification.
+
+### Implementation
+
+The project was developed and executed using Google Colab. The Python source code is provided in the source_code/ folder.
