@@ -15,10 +15,10 @@ The dataset is divided into three parts:
 ### Dataset Files
 
 dataset:
-->crisismmd_datasplit_all.zip
--> task_humanitarian_text_img_train.tsv
--> task_humanitarian_text_img_dev.tsv
--> task_humanitarian_text_img_test.tsv
+- crisismmd_datasplit_all.zip
+- task_humanitarian_text_img_train.tsv
+- task_humanitarian_text_img_dev.tsv
+- task_humanitarian_text_img_test.tsv
 
 ### Dataset Fields
 
